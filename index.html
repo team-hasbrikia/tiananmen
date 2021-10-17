@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+
+    <link href="index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.15.0/matter.min.js"></script>
+
+    <title>Tiananmen Game</title>
+
+    <meta content="Tiananmen Game" property="og:title" />
+    <meta
+      content="The Tiananmen Square protests, known as the June Fourth Incident in China, were student-led demonstrations held in Tiananmen Square, Beijing during 1989"
+      property="og:description"
+    />
+    <meta
+      content="https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
+      property="og:url"
+    />
+    <meta content="https://i.imgur.com/9NhT8zL.png" property="og:image" />
+    <meta content="#000000" data-react-helmet="true" name="theme-color" />
+    <link rel="icon shortcut" href="favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="game">
+        <button id="playAgainButton" onclick="location.reload()">
+          다시시작
+        </button>
+        <canvas id="canvas"></canvas>
+        <div id="floor"></div>
+      </div>
+    </div>
+
+    <script defer src="index.js"></script>
+  </body>
+</html>
