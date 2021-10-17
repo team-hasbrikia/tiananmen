@@ -12,7 +12,7 @@ body {
     
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    background-image: url("/img/tm.jpg");
+    background-image: url("img/tm.jpg");
 }
 
 .container {
